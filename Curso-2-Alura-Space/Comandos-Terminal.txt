@@ -1,0 +1,9 @@
+// Comandos de terminal
+1 - "venv\Scripts\Activate"
+2 - "pip freeze > requirements.txt"
+3 - "django-admin startproject setup ."
+4 - "python manage.py runserver"
+5 - "python manage.py startapp galeria"
+
+//Atalhos
+1 - alt seleciona e edita varias linhas ao mesmo tempo.
