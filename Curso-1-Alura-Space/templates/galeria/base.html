@@ -12,8 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static '/styles/style.css'%}"> <!--referencia o arquivo estático style.css com código python embedado no html-->.
 </head>
+<!-- + Boas Práticas + -->
 <body>
+    {% include 'galeria/partials/_header.html' %} <!--inclui o arquivo header.html que contém o cabeçalho-->
+    {% include 'galeria/partials/_sidebar.html' %} <!--inclui o arquivo sidebar.html que contém o menu lateral-->
     {% block content %}{% endblock %} <!--bloco de conteúdo que será substituído pelos outros arquivos html que extendem esse base.html-->
+    {% include 'galeria/partials/_footer.html' %} <!--inclui o arquivo footer.html que contém o rodapé-->
 </body>
 
 </html>
