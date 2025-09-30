@@ -14,8 +14,6 @@
 </head>
 <!-- + Boas Práticas + -->
 <body>
-    {% include 'galeria/partials/_header.html' %} <!--inclui o arquivo header.html que contém o cabeçalho-->
-    {% include 'galeria/partials/_sidebar.html' %} <!--inclui o arquivo sidebar.html que contém o menu lateral-->
     {% block content %}{% endblock %} <!--bloco de conteúdo que será substituído pelos outros arquivos html que extendem esse base.html-->
     {% include 'galeria/partials/_footer.html' %} <!--inclui o arquivo footer.html que contém o rodapé-->
 </body>
